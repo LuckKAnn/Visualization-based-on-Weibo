@@ -1,0 +1,53 @@
+
+/* div{
+    border: 1px solid black;
+} */
+body{
+    background-color:rgba(254,248,239,1) ;
+}
+#main
+{
+    margin: 4px;
+}
+#week1
+{
+    margin: 4px;
+}
+#week2
+{
+    margin: 4px;
+}
+#week3
+{
+    margin: 4px;
+}
+#week4
+{
+    margin: 4px;
+}
+#main7
+{
+    margin: 4px;
+}
+#radarchart
+{
+    margin: 4px;
+}
+#age
+{
+    margin: 4px;
+}
+#position
+{
+    margin: 4px;
+}
+#ageAndGender
+{
+    margin: 4px;
+}
+#words{
+    margin: 4px;
+}
+#info{
+    margin: 4px;
+}

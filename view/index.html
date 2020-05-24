@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>新冠疫情舆论可视化</title>
+    <!-- 引入 echarts.js -->
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script/echarts-wordcloud.min.js"></script>
+    <script src="script/customed.js"></script>
+    <script src="script/china.js"></script>
+    <!-- <script src="script/bootstrap.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+
+</head>
+<body >
+   
+    <div class="container-fluid" style="margin: 0px;">
+        <div class="row">
+            <h1 style="color: black;height: 4vh;width: 60vh;padding-left: 30px">新冠病毒舆情分析</h1>
+        </div>
+        <div class="row" >
+            <div class="col-md-4" style="padding-right: 10px;">
+                    <div class="col-md-12">
+                        <div id="dayInfor" >
+                            <h2 id="txt" style="color: black;">1月21日疫情舆论</h2>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-12">
+                        <div id="position" style="height: 40vh;width: 100%;bottom:29px;"></div>
+
+                    </div>
+               
+                    <div class="col-md-12">
+                        <div id="radarchart" style="height: 35vh;width: 100%;"></div>
+                    </div>
+               
+            </div>
+            <div class="col-md-8" style="padding-left: 10px;"> 
+                <div class="row"  >
+                    <div id="main" style="height: 60vh;width: 100%;"></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="week1" style="height: 20vh;width: 100%;"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="week2" style="height: 20vh;width: 100%;"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="week3"style="height: 20vh;width: 100%;"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="week4"style="height: 20vh;width: 100%;" ></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <div id="words"   style="height: 40vh;width: 100%;"></div>
+
+                </div>
+                <div class="col-md-12">
+                    <div id="ageAndGender"  style="height: 40vh;"></div>
+                    
+                </div>
+              
+            </div>
+            <div class="col-md-6">
+                <div id="main7"  style="height: 80vh;width: 100%;"></div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+   
+ 
+   
+    <!-- <div id="age" style="width: 450px;height:300px;"></div> -->
+   
+    
+    
+    <script src="script/resources.js"></script>
+    
+    
+</body>
+</html>
